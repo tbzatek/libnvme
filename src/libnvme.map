@@ -370,6 +370,8 @@ LIBNVME_1_0 {
 		nvmf_treq_str;
 		nvmf_trtype_str;
 		nvmf_update_config;
+		nbft_read;
+		nbft_free;
 	local:
 		*;
 };

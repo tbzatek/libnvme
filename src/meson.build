@@ -7,6 +7,7 @@
 #
 sources = [
     'nvme/cleanup.c',
+    'nvme/nbft.c',
     'nvme/fabrics.c',
     'nvme/filters.c',
     'nvme/ioctl.c',
@@ -119,6 +120,7 @@ install_headers('libnvme.h', install_mode: mode)
 install_headers('libnvme-mi.h', install_mode: mode)
 install_headers([
         'nvme/api-types.h',
+        'nvme/nbft.h',
         'nvme/fabrics.h',
         'nvme/filters.h',
         'nvme/ioctl.h',
