@@ -1,5 +1,11 @@
 # SPDX-License-Identifier: LGPL-2.1-or-later
 
+LIBNVME_1_4 {
+	global:
+		nbft_read;
+		nbft_free;
+};
+
 LIBNVME_1_3 {
 	global:
 		nvme_ctrl_is_unique_discovery_ctrl;
@@ -370,8 +376,6 @@ LIBNVME_1_0 {
 		nvmf_treq_str;
 		nvmf_trtype_str;
 		nvmf_update_config;
-		nbft_read;
-		nbft_free;
 	local:
 		*;
 };
